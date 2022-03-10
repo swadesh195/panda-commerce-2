@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Panda Commerce Using Bootstrap</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/5485c25aee.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -19,59 +20,55 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <form class="d-flex w-50">
-                    <input class="form-control ms-5 me-3 rounded-pill" type="search" placeholder="Search" aria-label="Search">
+                <form class="d-flex w-100 py-2">
+                    <input class="form-control ms-5 me-3 rounded-pill " type="search" placeholder="Search" aria-label="Search">
                 </form>
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Product</a>
+                    <a class="nav-link" href="#shoes">Shoes</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">About Us</a>
+                    <a class="nav-link" href="#backpack">Backpack</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
+                    <a class="nav-link" href="#subscribe">Subscribe</a>
                   </li>
                 </ul>
               </div>
             </div>
           </nav>
         <!---------------- nav bar ends here ---------------->
-
+        
         <!-- --------------carousel section starts here------------ -->
-        <section style="background-color: #FEEAE9;" class="rounded-4">
-            <div class="container">echo "# panda-commerce" >> README.md
-                git init
-                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    </div>
+        <section class="my-5">
+            <div class="container rounded-3 " style="background-color: #FEEAE9;">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                       <div class="carousel-item active">
-                        <div class="row d-flex justify-content-center align-items-center">
-                            <div class="col-lg-7 ">
-                                <div>
-                                    <h1>Mi LED TV 4A PRO 32</h1>
-                                    <p>Mi LED TV is a smart TV. Flash Drive, NetFlix and Amazone Prime can be used in it. There are many other features in this LED TV. Such as eye protection mode, night mode, high contrast Etc.</p>
-                                </div>
+                       <div class="row d-flex align-items-center p-5">
+                            <div class="col-lg-7">
+                                <h1>Mi LED TV 4A PRO 32</h1>
+                                <p>Mi LED TV is a smart TV. Flash Drive, Netflix and Amazone Prime can be used in it. There are many other features in this LED TV. Such as eye protection mode, night mode, high contrast Etc.</p>
+                                <h1 style="color:#FF136F">$1289</h1>
+                                <a style="background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);" class="btn btn-primary border-0 px-4" href="">Buy Now 
+                                <i class="fa-solid fa-arrow-right-long"></i>
+                                </a>
                             </div>
                             <div class="col-lg-5">
                                 <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
                             </div>
-                        </div>
+                       </div>
                       </div>
                       <div class="carousel-item">
-                        <div class="row">
-                            <div class="col-lg-7 d-flex justify-content-center align-items-center">
-                                <div>
-                                    <h1>Mi LED TV 4A PRO 32</h1>
-                                    <p>Mi LED TV is a smart TV. Flash Drive, NetFlix and Amazone Prime can be used in it. There are many other features in this LED TV. Such as eye protection mode, night mode, high contrast Etc.</p>
-                                </div>
+                        <div class="row d-flex align-items-center p-5">
+                            <div class="col-lg-7 ">
+                                <h1>Mi LED TV 4A PRO 32</h1>
+                                <p>Mi LED TV is a smart TV. Flash Drive, Netflix and Amazone Prime can be used in it. There are many other features in this LED TV. Such as eye protection mode, night mode, high contrast Etc.</p>
+                                <h1 style="color:#FF136F">$1289</h1>
+                                <a style="background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);" class="btn btn-primary border-0 px-4" href="">Buy Now <i class="fa-solid fa-arrow-right-long"></i></a>
                             </div>
                             <div class="col-lg-5">
                                 <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
@@ -79,32 +76,38 @@
                         </div>
                       </div>
                       <div class="carousel-item">
-                        <div class="row">
-                            <div class="col-lg-7 d-flex justify-content-center align-items-center">
-                                <div>
-                                    <h1>Mi LED TV 4A PRO 32</h1>
-                                    <p>Mi LED TV is a smart TV. Flash Drive, NetFlix and Amazone Prime can be used in it. There are many other features in this LED TV. Such as eye protection mode, night mode, high contrast Etc.</p>
-                                </div>
+                        <div class="row d-flex align-items-center p-5">
+                            <div class="col-lg-7 ">
+                                <h1>Mi LED TV 4A PRO 32</h1>
+                                <p>Mi LED TV is a smart TV. Flash Drive, Netflix and Amazone Prime can be used in it. There are many other features in this LED TV. Such as eye protection mode, night mode, high contrast Etc.</p>
+                                <h1 style="color:#FF136F">$1289</h1>
+                                <a style="background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);" class="btn btn-primary border-0 px-4" href="">Buy Now <i class="fa-solid fa-arrow-right-long"></i></a>
                             </div>
                             <div class="col-lg-5">
-                                <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
+                                <img src="images/banner-images/headphone.png" class="d-block w-100 mt-2" alt="...">
                             </div>
                         </div>
                       </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon bg-warning" aria-hidden="true"></span>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                       <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                      <span class="carousel-control-next-icon text-warning" aria-hidden="true"></span>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
                       <span class="visually-hidden">Next</span>
                     </button>
                   </div>
             </div>
         </section>
         <!-- --------------carousel section starts here------------ -->
-    </header>    
+    </header>
+    <main>
+      <div class="container">
+        <h4>Categories</h4>
+        
+      </div>
+    </main>    
 
 
 
